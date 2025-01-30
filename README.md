@@ -1,0 +1,3 @@
+# Solidity Withdraw Function Bug
+
+This repository demonstrates a subtle bug in a Solidity withdraw function related to gas costs.  The `transfer` function's gas requirements are not explicitly accounted for, leading to a potential loss of funds for users making large withdrawals.  The `bug.sol` file contains the flawed code, while `bugSolution.sol` provides a corrected version using a safer approach.
